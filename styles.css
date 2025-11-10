@@ -1,7 +1,31 @@
 table {
-	border-collapse:collapse;
-	width:100%;
-	
-	
-}
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+    }
+    thead th {
+      background-color: #9e272c;
+      color: #fff;
+      padding: 10px 6px;
+      border: 1px solid #8b2327;
+      font-weight: bold;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: #f3dadc;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #e0d8d8;
+    }
+    td {
+      text-align: center;
+      padding: 8px 6px;
+      border: 1px solid #b7adad;
+    }
+    th:first-child, td:first-child {
+      text-align: left;
+    }
+    tbody tr:last-child {
+      background-color: #ebebeb;
+      color: #2c4768;
 /* Your CSS Code here. */
